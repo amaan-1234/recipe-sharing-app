@@ -1,0 +1,117 @@
+/* Recipe Card Styling */
+.recipe-card {
+  border: 1px solid #e0e0e0;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgb(188, 10, 10);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(8, 44, 202, 0.986);
+}
+
+.recipe-card h2 {
+  margin-top: 0;
+  color: #db0b0b;
+  font-size: 1.8rem;
+}
+
+.recipe-card p {
+  color: #be0404;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-card ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-card ul li {
+  margin-bottom: 0.3rem;
+}
+
+/* Button Styling */
+button {
+  margin: 0.5rem 0.25rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1976d2;
+}
+
+button.delete {
+  background-color: #f44336;
+}
+
+button.delete:hover {
+  background-color: #d32f2f;
+}
+
+body {
+  background: linear-gradient(to right, #e3f2fd, #fce4ec);
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #00d856;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Styling */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #c8f7c5;
+}
+
+/* Optional underline effect on hover */
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: #c8f7c5;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Label styling */
+form label {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #0080ff;
+}
+
