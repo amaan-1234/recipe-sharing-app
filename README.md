@@ -118,10 +118,6 @@ recipe-sharing-app/
 ## Contact
 
 Created by Amaan Mohamed Kalemullah - feel free to reach out!
-
 ---
-
 **Enjoy cooking and sharing recipes! 🍳🍲**
-
 ```
-
