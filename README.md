@@ -7,7 +7,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application that allows use
 
 ## 🚀 Live Demo
 
-Access the live deployed app here:  
+Access the live deployed app here (Note: Vercel only supports React so only the frontend of the program is visible. Since Vercel does not support the backend, the recipes will not get added.):  
 (https://recipe-app-chi-bice.vercel.app/)
 
 ---
